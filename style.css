@@ -1,0 +1,88 @@
+body
+{
+  padding-top: 150px;
+  text-align: center;
+  background: #6441A5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2a0845, #6441A5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2a0845, #6441A5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+font-family: 'Oswald', sans-serif;
+}
+
+.dial {
+  height: 400px;
+  width: 400px;
+}
+
+.timer {
+  position: relative;
+  display: inline-block;
+}
+
+* {
+  font: inherit;
+}
+
+.timer input {
+  display: block;
+  border: none;
+  width: 240px;
+  font-size: 100px;
+  text-align: center;
+  background: transparent;
+  color: white;
+}
+
+.timer button {
+  border: none;
+  font-size: 36px;
+  cursor: pointer;
+}
+
+.timer button:focus {
+  outline: none;
+}
+
+.timer input:focus {
+  outline: none;
+}
+
+.controls {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+button
+{
+  background: transparent;
+  color: white;
+  font-size: 70px;
+}
+.fa-play
+{
+  padding-right: 15px;
+}
+.fa-pause
+{
+  padding-left: 15px;
+}
+
+#reset
+{
+  text-align: center;
+  margin-top: 50px;
+  padding: 5px 30px 5px 30px;
+  border-radius: 10px;
+  border: 1px solid white;
+  font-size: 45px;
+}
+
+#reset:hover
+{
+  background-color: rgb(67, 9, 114);
+}
